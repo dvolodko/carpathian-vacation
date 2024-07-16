@@ -1,0 +1,71 @@
+@font-face {
+  font-weight: 400;
+  font-family: 'KyivType';
+  src: url('./KyivType/KyivType2020-14-12/KyivType-VariableGX/KyivTypeTitling-VarGX.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-image: url(../images/background-image.jpeg);
+  font-family: 'KyivType';
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.header {
+  /* background-image: url(../images/header-embrodery.jpg); */
+  /* background-size: contain; */
+  /* background-color: black; */
+}
+
+.header-menu-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.header-menu-item {
+  font-size: 20px;
+  color: #fff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.header-menu-link {
+  color: inherit;
+  text-shadow: 2px 5px 4px #000, 0px 0px 8px aquamarine, 1px 1px 0px aqua;
+}
+
+.hero-title {
+  font-size: 72px;
+  color: inherit;
+  color: #9b3634;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-item {
+  width: calc((100% - 1 * 24px) / 2);
+}
+
+.gallery-image-wrapper {
+  border-radius: 8px;
+  overflow: hidden;
+}
